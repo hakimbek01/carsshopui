@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> {
             height: 30,
             width: 60,
             decoration: BoxDecoration(
-              color: (list[currentIndex]) ? Colors.grey.shade300:Colors.grey.shade200,
+              color: (list[currentIndex]) ? Colors.red:Colors.grey.shade200,
               borderRadius: BorderRadius.circular(17),
             ),
             child: Center(
